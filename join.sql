@@ -78,7 +78,7 @@ SELECT OrderID.O,
             ShipName.S,
             ShippAddress.S
 		FROM Orders O
-        JOIN [Order Details] OD
+        JOIN `Order Details` OD
         ON OrderID.O = OrderID.OD
         JOIN Products P
 			ON ProductID.OD = ProductID.P
